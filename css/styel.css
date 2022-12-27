@@ -1,0 +1,205 @@
+/* comon section css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;  
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface',
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.continar{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* comon setion css End  */
+
+/* hedaer section css start  */
+#hedar .top_bar{
+    background:#0f2f44 ;
+    color: #ffff;
+}
+#hedar .top_bar p{
+    padding: 18px 20px;
+}
+#hedar .top_bar .row{
+    justify-content: space-between;
+}
+#hedar #hedar_menu div.row{
+    justify-content: space-between;
+}
+#hedar #hedar_menu .logo{
+    margin-top:25px ;
+}
+#hedar #hedar_menu div.row button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 32px 10px 30px;
+    text-align: center;
+    transition: .7s;
+    border: 1px solid #0f2f44 ;
+}
+#hedar #hedar_menu div.row button:hover{
+    background-color: #ffc712;
+    
+}
+#hedar #hedar_menu div.row a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 40px 20px ;
+    display: inline-block;
+    border-radius: 10px;
+    transition: .7s;
+}
+#hedar #hedar_menu div.row a:hover{
+    background-color: #ffc815;
+    border: 2px solid black;
+
+}
+/* hedar section css End */
+
+/* bannar sectin css start  */
+#bannar{
+    background-image: url(../img/bannar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bannar .bannar_item h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #0f2f44;
+    padding-top: 70px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+#bannar .bannar_item h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #8484bf;
+    letter-spacing: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+#bannar .bannar_item p{
+    font-size: 14px;
+    width: 465px;
+    padding: 30px 0px 30px;
+    color: #444444;
+}
+#bannar .bannar_item a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 1px solid #ffc815;
+    margin-bottom: 140px;
+    transition: .7s;
+
+}
+#bannar .bannar_item a:hover{
+    background-color: #8383bf;
+    border-radius: 10px;
+}
+/* bannner section css End  */
+#about .about_item{
+    width: 50%;
+}
+#about .about_item h5{
+    font-size: 14px;
+    color: #0f2f44;
+    padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;  
+}
+#about .about_item h2{
+    font-size: 32px;
+    color: #0f2f44;
+    padding-bottom: 30px;
+    font-family: 'Abril Fatface',
+}
+#about .about_item p{
+    font-size: 16px;
+    color: #0f2f44;
+    width: 570px;
+}
+#about .about_item  .rasel{
+    font-size: 16px;
+    color: #0f2f44;
+    padding: 30px;
+}
+#about .about_item a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0f2f44;
+    padding-top:17px ;
+    padding-bottom: 14px;
+    padding-right: 22px;
+    padding-left: 19px;
+    transition: .7s;
+    margin-right: 20px;
+    border: 1px solid #0f2f44;
+}
+#about .about_item a:hover{
+    background-color: #ffc712;
+    border: 1px solid #0f2f44;
+    border-radius: 10px;
+}
+#about .about_img{
+    width: 50%;
+}
+#about .about_img img{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+/* about section css statr  */
+
+/* skills section css Start  */
+#skills{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#skills .skills_img{
+    width: 50%;
+}
+#skills .skills_img img{
+   width: 650px;
+}
+#skills  .skills_item{
+    width: 50%;
+    text-align: right;
+    padding-right: 100px;
+}
+#skills  .skills_item h5{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0f2f44;
+    font-family: 'Ubuntu', sans-serif;  
+}
+#skills  .skills_item h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #0f2f44;
+    padding-bottom: 30px;
+    font-family: 'Abril Fatface'
+}
+#skills  .skills_item p{
+    font-size: 16px;
+    color: #0f2f44;
+}
